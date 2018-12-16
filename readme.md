@@ -1,4 +1,4 @@
-# syms.js
+# syms - easy Symbol.for access
 
 This is an incredibly simple wrapper around `Symbol.for()` using a `Proxy` object.
 
