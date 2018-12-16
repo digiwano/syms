@@ -19,7 +19,7 @@ const THING4 = Symbol.for("A Fourth Thing")
 const THING5 = Symbol.for("thing #5")
 ```
 
-This is just an object, where for any requested property, `Symbol.for(x)` is returned, where `x` is the property name. The entire motivation for this module is that I tend to prefer using Symbols for "internal" methods/properties/etc, and that `const {WHATEVER,}`
+This is just an object, where for any requested property, `Symbol.for(x)` is returned, where `x` is the property name. The entire motivation for this module is that I tend to prefer using Symbols for "internal" methods/properties/etc, and that `const {WHATEVER, WHATEVER_ELSE} = require("syms")` feels fairly convenient.
 
 # Reasoning
 
