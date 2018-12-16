@@ -1,0 +1,28 @@
+{
+  "name": "syms",
+  "version": "1.0.0",
+  "main": "syms.js",
+  "scripts": {
+    "test": "ava tests.js"
+  },
+  "keywords": [
+    "symbols",
+    "symbol",
+    "sym",
+    "syms",
+    "automatic"
+  ],
+  "author": "Rando Christensen <digiwano@gmail.com>",
+  "license": "ISC",
+  "description": "Automatic/Convenience/Syntactic-Sugar Symbol.for() access: `const {WHATEVER,Vars,youWant} = require(\"syms\")`",
+  "devDependencies": {
+    "ava": "^1.0.1",
+    "eslint": "^5.10.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.3",
+    "uuid": "^3.3.2"
+  }
+}
