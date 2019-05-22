@@ -1,6 +1,6 @@
 {
   "name": "syms",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "main": "syms.js",
   "scripts": {
     "test": "ava tests.js"
